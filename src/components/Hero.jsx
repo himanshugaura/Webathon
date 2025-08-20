@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto overflow-hidden mt-30 z-99 flex justify-center">
         <img src="/forwebsite.png" className="w-[90%] rounded-md" />
       </div>
-      <MorphingText texts={texts} className={"z-90 text-white text-[160px]"}/>
+      <MorphingText texts={texts} className={"z-90 text-white text-[160rem]"}/>
       <BackgroundBeams className={"-z-0"} />
     </div>
   );
