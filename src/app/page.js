@@ -2,6 +2,7 @@ import EventMarquee from "@/components/EventMarquee";
 import { TabsDemo } from "@/components/Events";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Sponsors from "@/components/Sponsors";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import Image from "next/image";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <EventMarquee />
       <TabsDemo />
+      <Sponsors />
     </div>
   );
 }
