@@ -1,5 +1,6 @@
 import EventMarquee from "@/components/EventMarquee";
 import { TabsDemo } from "@/components/Events";
+import { Footer } from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Sponsors from "@/components/Sponsors";
@@ -15,6 +16,7 @@ export default function Home() {
       <EventMarquee />
       <TabsDemo />
       <Sponsors />
+      <Footer />
     </div>
   );
 }

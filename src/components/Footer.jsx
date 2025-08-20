@@ -1,10 +1,10 @@
 import React from "react";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
-export function TextHoverEffectDemo() {
+export function Footer() {
   return (
-    <div className="h-[40rem] flex items-center justify-center">
-      <TextHoverEffect text="ACET" />
+    <div className="flex items-center justify-center">
+      <TextHoverEffect text="Nirvanva" className="opacity-50" />
     </div>
   );
 }
