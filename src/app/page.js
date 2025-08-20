@@ -1,3 +1,4 @@
+import EventMarquee from "@/components/EventMarquee";
 import { TabsDemo } from "@/components/Events";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -10,6 +11,7 @@ export default function Home() {
       <ScrollProgress className="top-0" />
       <Navbar />
       <Hero />
+      <EventMarquee />
       <TabsDemo />
     </div>
   );

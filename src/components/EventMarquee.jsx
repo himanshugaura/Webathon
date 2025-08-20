@@ -40,7 +40,7 @@ const EventMarquee = () => {
         },
     ]
   return (
-    <div className="w-full h-fit p-10 flex flex-col items-center justify-center gap-7">
+    <div className="w-full h-fit p-10 flex flex-col items-center justify-center gap-7 overflow-hidden">
         <SparklesText>
             <h1 className="text-white">Glimpses Of Previous Events</h1>
         </SparklesText>
